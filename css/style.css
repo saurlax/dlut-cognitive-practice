@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'baige';
+  src: url('../font/baige.ttf');
+}
+
+body {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+}
+
+.totop {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #0966b4;
+  user-select: none;
+  box-shadow: 1px 1px 3px #bdbdbd;
+}
+
+/* header */
+.logo {
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'baige';
+  margin: 0 6px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: linear-gradient(black, transparent);
+  user-select: none;
+  text-shadow: 0 1px 2px black;
+}
+
+.header a {
+  padding: 2px 6px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  text-shadow: 0 1px 2px black;
+  transition: color 0.1s;
+}
+
+.header a:hover {
+  color: #bdbdbd;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.search {
+  display: inline-flex;
+  background-color: #ffffff22;
+  border-radius: 6px;
+  padding: 6px 10px;
+  transition: background-color 0.1s;
+}
+
+.search:hover,
+.search:focus-within {
+  background-color: #ffffff44;
+}
+
+.search input {
+  color: white;
+  border: none;
+  outline: none;
+  background: none;
+  width: 40px;
+  transition: width 0.2s;
+}
+
+.search:hover input,
+.search:focus-within input {
+  width: 120px;
+}
+
+.search button {
+  color: white;
+  padding: 0;
+  display: inline-flex;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  text-shadow: 0 0 2px black;
+}
+
+.search button:hover {
+  color: #bdbdbd;
+}
+
+.banner {
+  position: relative;
+  height: 600px;
+  background-image: url('../image/banner.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* footer */
+.footer {
+  padding: 20px;
+  color: white;
+  background-color: #0966b4;
+  font-size: 0.8rem;
+  text-align: center;
+}
