@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/index.js"></script>
   <title>大黑山基地</title>
 </head>
 
@@ -20,7 +22,7 @@
       </div>
       <div class="search">
         <input type="text" placeholder="搜索...">
-        <button>
+        <button onclick="search()">
           <svg class="icon" width="200px" height="200.00px" viewBox="0 0 1024 1024" fill="currentColor" version="1.1"
             xmlns="http://www.w3.org/2000/svg">
             <path
@@ -31,9 +33,37 @@
     </div>
   </header>
   <div class="banner">
-    <h1>大黑山基地欢迎您！</h1>
+    <h1>海纳百川 自强不息 厚德笃学 知行合一</h1>
   </div>
-  <div class="content"></div>
+  <div class="wrapper">
+    <div class="content">
+      <h1>黑山新闻</h1>
+      <div class="news">
+        <div class="news-title"><a
+            href="https://ss.dlut.edu.cn/info/1070/28722.htm">深化海洋创新合作，共绘海洋强国蓝图—学院赴中国船舶科学研究中心参观交流</a></div>
+        <div class="news-items">
+          <a href="https://ss.dlut.edu.cn/info/1070/28512.htm">国际信息与软件学院开展建院10周年系列活动</a>
+          <a href="https://ss.dlut.edu.cn/info/1070/27812.htm">人工智能健康与机器人中日联合研讨会在大连理工大学成功举办</a>
+          <a href="https://ss.dlut.edu.cn/info/1070/26652.htm">新“舍”新“家”，学院圆满完成研究生宿舍整体搬迁工作！</a>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <h1>黑山通知</h1>
+      <div class="notice">
+        <a href="https://mp.weixin.qq.com/s/3viDifLH_MEdiMIgfAfUOA">大连理工大学2024年本科招生计划查询指南</a>
+        <a href="https://mp.weixin.qq.com/s/rDPv7P4sX279StLRnekAOQ">大连理工大学2024年本科招生各专业及分省咨询电话</a>
+        <a href="https://mp.weixin.qq.com/s/PzfWn59qDmYyO8pvom17Iw">大连理工大学招生宣传行程查询指南</a>
+        <a href="https://zsb.dlut.edu.cn/recruitmentHandbook?businessType=22">大连理工大学2024年本科招生报考指南</a>
+        <a href="https://mp.weixin.qq.com/s/NBoiAV1tSwmJMukKV-sAgw">大连理工大学2024年全日制普通本科招生章程</a>
+        <a href="http://zs.dlut.edu.cn/info/1006/2778.htm">大连理工大学2024年“筑梦计划”招生简章</a>
+      </div>
+    </div>
+    <div class="content">
+      <h1>黑山媒体</h1>
+      <iframe class="video" src="//player.bilibili.com/player.html?bvid=BV1eS411A7JB"></iframe>
+    </div>
+  </div>
   <footer class="footer">版权所有：大黑山基地 地址：大连经济技术开发区图强街321号 Email：ssdut(AT)dlut.edu.cn 电话：0411-62274389</footer>
   <div class="totop">↑</div>
 </body>
